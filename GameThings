@@ -1,0 +1,186 @@
+-- Instances:
+
+local HanzGUIV1 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local NameAndVersion = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local SpeedNormal = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Speed40 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Speed1225 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local NormalGravity = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local LowGravity = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local NoGravity = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+--Properties:
+
+HanzGUIV1.Name = "HanzGUIV1"
+HanzGUIV1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+HanzGUIV1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = HanzGUIV1
+Frame.BackgroundColor3 = Color3.fromRGB(250, 192, 255)
+Frame.Position = UDim2.new(0.812121212, 0, 0.149779737, 0)
+Frame.Size = UDim2.new(0.156363636, 0, 0.697503686, 0)
+
+UICorner.Parent = Frame
+
+NameAndVersion.Name = "NameAndVersion"
+NameAndVersion.Parent = Frame
+NameAndVersion.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameAndVersion.Position = UDim2.new(0.0503875986, 0, 0.0294736847, 0)
+NameAndVersion.Size = UDim2.new(0.887596905, 0, 0.147368416, 0)
+NameAndVersion.Font = Enum.Font.SciFi
+NameAndVersion.Text = "Hanz V1"
+NameAndVersion.TextColor3 = Color3.fromRGB(159, 129, 255)
+NameAndVersion.TextScaled = true
+NameAndVersion.TextSize = 14.000
+NameAndVersion.TextWrapped = true
+
+UICorner_2.Parent = NameAndVersion
+
+SpeedNormal.Name = "SpeedNormal"
+SpeedNormal.Parent = Frame
+SpeedNormal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedNormal.Position = UDim2.new(0.112403102, 0, 0.850526333, 0)
+SpeedNormal.Size = UDim2.new(0.77519381, 0, 0.105263159, 0)
+SpeedNormal.Font = Enum.Font.SciFi
+SpeedNormal.Text = "WS 16"
+SpeedNormal.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedNormal.TextScaled = true
+SpeedNormal.TextSize = 14.000
+SpeedNormal.TextWrapped = true
+
+UICorner_3.Parent = SpeedNormal
+
+Speed40.Name = "Speed40"
+Speed40.Parent = Frame
+Speed40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed40.Position = UDim2.new(0.112403102, 0, 0.722105265, 0)
+Speed40.Size = UDim2.new(0.77519381, 0, 0.105263159, 0)
+Speed40.Font = Enum.Font.SciFi
+Speed40.Text = "WS 40"
+Speed40.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed40.TextScaled = true
+Speed40.TextSize = 14.000
+Speed40.TextWrapped = true
+
+UICorner_4.Parent = Speed40
+
+Speed1225.Name = "Speed1225"
+Speed1225.Parent = Frame
+Speed1225.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed1225.Position = UDim2.new(0.112403102, 0, 0.595789492, 0)
+Speed1225.Size = UDim2.new(0.77519381, 0, 0.105263159, 0)
+Speed1225.Font = Enum.Font.SciFi
+Speed1225.Text = "Mach 1"
+Speed1225.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed1225.TextScaled = true
+Speed1225.TextSize = 14.000
+Speed1225.TextWrapped = true
+
+UICorner_5.Parent = Speed1225
+
+NormalGravity.Name = "NormalGravity"
+NormalGravity.Parent = Frame
+NormalGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NormalGravity.Position = UDim2.new(0.112403102, 0, 0.471578956, 0)
+NormalGravity.Size = UDim2.new(0.77519381, 0, 0.105263159, 0)
+NormalGravity.Font = Enum.Font.SciFi
+NormalGravity.Text = "Normal gravity"
+NormalGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+NormalGravity.TextScaled = true
+NormalGravity.TextSize = 14.000
+NormalGravity.TextWrapped = true
+
+UICorner_6.Parent = NormalGravity
+
+LowGravity.Name = "LowGravity"
+LowGravity.Parent = Frame
+LowGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LowGravity.Position = UDim2.new(0.112403102, 0, 0.343157887, 0)
+LowGravity.Size = UDim2.new(0.77519381, 0, 0.105263159, 0)
+LowGravity.Font = Enum.Font.SciFi
+LowGravity.Text = "Low Gravity"
+LowGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+LowGravity.TextScaled = true
+LowGravity.TextSize = 14.000
+LowGravity.TextWrapped = true
+
+UICorner_7.Parent = LowGravity
+
+NoGravity.Name = "NoGravity"
+NoGravity.Parent = Frame
+NoGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoGravity.Position = UDim2.new(0.112403102, 0, 0.221052632, 0)
+NoGravity.Size = UDim2.new(0.77519381, 0, 0.105263159, 0)
+NoGravity.Font = Enum.Font.SciFi
+NoGravity.Text = "No Gravity"
+NoGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoGravity.TextScaled = true
+NoGravity.TextSize = 14.000
+NoGravity.TextWrapped = true
+
+UICorner_8.Parent = NoGravity
+
+
+
+
+
+
+
+--- Gravity ---
+
+NoGravity.MouseButton1Click:Connect(function()
+	game.Workspace.Gravity = 0
+end)
+
+NormalGravity.MouseButton1Click:Connect(function()
+	game.Workspace.Gravity = 196.2
+end)
+
+LowGravity.MouseButton1Click:Connect(function()
+	game.Workspace.Gravity = 100
+end)
+
+
+
+
+--- WalkSpeed Local player ---
+
+
+
+
+SpeedNormal.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+
+Speed40.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+end)
+
+
+Speed1225.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1225
+end)
+
+
+
+
+
+
+
+
+--- Draggable stuff ---
+
+
+
+
+Frame.Active = true
+Frame.Draggable = true
